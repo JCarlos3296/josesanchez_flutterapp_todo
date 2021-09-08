@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:josesanchez_flutterapp_todo/src/modules/todo/ToDoPage.dart';
+import 'package:josesanchez_flutterapp_todo/src/counter_getx/CounterPage.dart';
 
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TodoPage(),
+      home: CounterPage(),
     );
   }
 }
